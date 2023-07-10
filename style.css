@@ -197,12 +197,12 @@ h3 {
     align-items: center;
 }
 #about .pdet{
-    /* display: flex; */
     margin-left: 0px;
     font-size: 1.9em;
     color:#03df97;
     display: flex;
     text-align: center;
+    justify-content: space-around;
 }
 .map{
     margin-top: 50px;
@@ -274,39 +274,6 @@ h3 {
     transition: 500ms;
 
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .skills {
     font-size: 1.9em;
