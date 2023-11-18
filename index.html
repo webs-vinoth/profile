@@ -342,30 +342,31 @@
                 </div>
 
                 <div class="container" style="width: 70%;">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label for="NameFormInput" class="form-label" style="color: #03df97;" >Name</label>
-                                <input type="text" class="form-control" id="NameFormInput" placeholder="Name">
-                                <p id="NameWarning" style="color: orange; font-size: small;text-align: center;"></p>
+                      <form action="https://formsubmit.co/itsvinothp@email.com" method="post" class="row g-3 needs-validation" >
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="NameFormInput" class="form-label" style="color: #03df97;" >Name</label>
+                                    <input type="text" class="form-control" id="NameFormInput" placeholder="Name" required>
+                                    <p id="NameWarning" style="color: orange; font-size: small;text-align: center;"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="MailFormInput" class="form-label" style="color: #03df97;">Email address</label>
+                                    <input type="email" class="form-control" id="MailFormInput" placeholder="name@example.com" required>
+                                    <p id="MailWarning" style="color: orange; font-size: small;text-align: center;"></p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label for="MailFormInput" class="form-label" style="color: #03df97;">Email address</label>
-                                <input type="email" class="form-control" id="MailFormInput" placeholder="name@example.com">
-                                <p id="MailWarning" style="color: orange; font-size: small;text-align: center;"></p>
-                            </div>
+                        <div class="mb-3">
+                            <label for="MsgFormTextarea" class="form-label" style="color: #03df97;">Message</label>
+                            <textarea class="form-control" id="MsgFormTextarea" rows="3"></textarea>
                         </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="MsgFormTextarea" class="form-label" style="color: #03df97;">Message</label>
-                        <textarea class="form-control" id="MsgFormTextarea" rows="3"></textarea>
-                    </div>
-                </div>
-                
-                <div class="send container" style="display: flex;justify-content: center;">
-                    <a id="sendmsg" class="btn btn-success" style="width: 20%;">Send</a>
+                        <div class="send container" style="display: flex;justify-content: center;">
+                            <button id="sendmsg" class="sumbitbut" type="submit" style="width: 20%;">Send</button>
+                        </div>
+                    </form>
                 </div>
                 <br>
                 <br>
